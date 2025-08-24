@@ -29,6 +29,8 @@ From the built‑in terminal, run:
 python run.py --encoder vitb --img-path assets/examples/foot.jpg --outdir depth_result --grayscale --pred-only
 ```
 
+you can also run various other commands from the DepthAnything scripts text file in this repository.
+
 This will write the depth results into `depth_result/`.  
 If you see a note like _“xFormers not available”_, that's okay — it will still run on CPU.  
 ![Step 3](images/step_02.png)
