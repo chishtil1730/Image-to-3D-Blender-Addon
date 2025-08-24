@@ -12,6 +12,15 @@ Every step includes a screenshot so you can follow along quickly.
 
 ---
 
+**Important Setup** Clone the Depth-Anything-V2 repository and also download the base model for now.
+
+Links:
+
+Github-Repo: https://github.com/DepthAnything/Depth-Anything-V2
+
+Base model: https://huggingface.co/depth-anything/Depth-Anything-V2-Base/resolve/main/depth_anything_v2_vitb.pth?download=true
+
+
 ## 1) PyCharm setup & depth inference
 
 ### Step 1 — Open the project
