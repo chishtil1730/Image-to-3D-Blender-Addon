@@ -1,0 +1,44 @@
+python run.py --encoder vitb --img-path assets/examples/yourImage.jpg --outdir depth_result
+
+<!--Important-->
+(Choose vits for small model, vitb for base, vitl for large and vitg for giant model)
+
+All Flags Explained:
+
+--encoder vitb: Uses the base model you have
+--img-path: Your input image
+--outdir: Output directory
+--grayscale: Black and white depth map
+--pred-only: Only saves the depth map, no original image
+
+
+
+to measure processing time: 
+python -c "import time; start=time.time(); import subprocess; subprocess.run(['python', 'run.py', '--encoder', 'vitb', '--img-path', 'assets/examples/bondam.jpg', '--outdir', 'depth_result', '--grayscale']); print(f'Total time: {time.time()-start:.2f}s')"
+
+
+for grayscale: 
+
+python run.py --encoder vitb --img-path assets/examples/yourImage.jpg --outdir depth_result --grayscale
+
+for only depth map:
+
+python run.py --encoder vitb --img-path assets/examples/yourImage.jpg --outdir depth_result --grayscale --pred-only
+
+
+
+
+
+
+
+for better quality output:
+
+python run.py --encoder vitb --img-path your_image.jpg --outdir depth_result --grayscale --pred-only --input-size 1024
+
+
+to run smoothened depth map:
+python smooth_depth.py --input depth_result/bondam_depth.png --output smoothed_bondam_depth.png --method bilateral
+
+
+'C:\\Users\\LENOVO\\AppData\\Roaming\\Blender Foundation\\Blender\\4.2\\scripts\\modules'
+
