@@ -1,5 +1,7 @@
 # Image to Depth Map Blender addon
 
+>*Contact me:* catterpi1432@gmail.com 
+
 This README walks you through **setting things up in PyCharm** and then **using the Blender add‑on** to turn an image into a depth map and mesh.  
 Every step includes a screenshot so you can follow along quickly.
 
