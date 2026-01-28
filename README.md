@@ -34,6 +34,16 @@ Every step includes a screenshot so you can follow along quickly.
     pip install -r Depth-Anything-V2/requirements.txt
 ```
 
+3. Install the model
+```bash
+    #Download model from link above
+    cd Depth-Anything-V2
+    
+    #Create a folder called checkpoints
+    mkdir checkpoints
+```
+
+
 ## 1) PyCharm setup & depth inference
 
 ### Step 1 — Open the project
