@@ -44,6 +44,12 @@ Every step includes a screenshot so you can follow along quickly.
     #Add the downloaded model inside checkpoints folder
 ```
 
+4. Run Commands
+```bash
+    #To run on a particular image:
+    python run.py --encoder vitb --img-path assets/examples/foot.jpg --outdir depth_result --grayscale --pred-only 
+```
+
 
 ## 1) PyCharm setup & depth inference
 
