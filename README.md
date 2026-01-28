@@ -41,6 +41,7 @@ Every step includes a screenshot so you can follow along quickly.
     
     #Create a folder called checkpoints
     mkdir checkpoints
+    #Add the downloaded model inside checkpoints folder
 ```
 
 
