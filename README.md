@@ -28,6 +28,11 @@ Every step includes a screenshot so you can follow along quickly.
     #Clone the project
     git clone https://github.com/DepthAnything/Depth-Anything-V2
 ```
+2. Install the requirements
+```bash
+    #Installing requirements
+    pip install -r Depth-Anything-V2/requirements.txt
+```
 
 ## 1) PyCharm setup & depth inference
 
