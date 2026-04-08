@@ -45,6 +45,7 @@ Every step includes a screenshot so you can follow along quickly.
 ```
 
 4. Run Commands
+   ### Use the following command:
 ```bash
     #To run on a particular image:
     python run.py --encoder vitb --img-path assets/examples/foot.jpg --outdir depth_result --grayscale --pred-only 
